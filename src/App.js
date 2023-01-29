@@ -3,7 +3,7 @@ function App() {
   const tg = window.Telegram.WebApp
 
   const onClose = () => {
-    tg.onClose()
+    tg.close()
   }
 
   return (
