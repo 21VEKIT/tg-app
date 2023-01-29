@@ -1,4 +1,7 @@
 function App() {
+
+  console.log(window.Telegram.WebApp)
+
   return (
     <div className="App">
 
