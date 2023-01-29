@@ -5,7 +5,6 @@ function App() {
   const onClose = () => {
     tg.close()
 
-    console.log('test')
   }
 
   return (
