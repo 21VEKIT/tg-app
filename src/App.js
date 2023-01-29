@@ -7,8 +7,6 @@ function App() {
 
   }
 
-  alert('123')
-
   return (
     <div className="App">
       <div onClick={onClose} C>close Window</div>
