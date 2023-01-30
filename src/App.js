@@ -20,10 +20,6 @@ function App() {
         setTasks([...tasks, {task: task}])
     }
 
-    useEffect(() => {
-        console.log(tasks)
-    }, [tasks])
-
   return (
     <div className="App container mx-auto px-2">
       <div className={`text-2xl`}>Здравствуйте {user}</div>
