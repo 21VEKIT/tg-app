@@ -2,7 +2,9 @@ import {useTelegram} from "./hooks/useTelegram";
 
 function App() {
 
-    const {onClose} = useTelegram()
+    const {onClose, user} = useTelegram()
+
+    alert(user)
 
   return (
     <div className="App container mx-auto px-2">
