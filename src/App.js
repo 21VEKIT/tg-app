@@ -4,12 +4,14 @@ function App() {
 
   const onClose = () => {
     tg.close()
-
   }
 
+  const info = JSON.stringify(tg.initDataUnsafe)
+
   return (
-    <div className="App">
+    <div className="App container mx-auto px-2">
       <div onClick={onClose} C>close Window</div>
+      <div>{info}</div>
     </div>
   );
 }
