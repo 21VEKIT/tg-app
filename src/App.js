@@ -1,17 +1,13 @@
+import {useTelegram} from "./hooks/useTelegram";
+
 function App() {
 
-  const tg = window.Telegram.WebApp
-
-  const onClose = () => {
-    tg.close()
-  }
-
-  const info = JSON.stringify(tg.initDataUnsafe)
+  const {onClose, user} = useTelegram()
 
   return (
     <div className="App container mx-auto px-2">
-      <div onClick={onClose} C>close Window</div>
-      <div>{info}</div>
+      <div onClick={onClose}>close Window</div>
+      <div>привет - {user}</div>
     </div>
   );
 }
