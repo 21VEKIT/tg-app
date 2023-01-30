@@ -1,7 +1,4 @@
-import {useTelegram} from "./hooks/useTelegram";
-
 function App() {
-
 
   return (
     <div className="App container mx-auto px-2">
