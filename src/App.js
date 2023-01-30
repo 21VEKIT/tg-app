@@ -7,6 +7,7 @@ function App() {
 
   useEffect(() => {
     tg.ready()
+    console.log(tg.initDataUnsafe)
   }, [])
 
   return (
