@@ -1,5 +1,3 @@
-import {useTelegram} from "./hooks/useTelegram";
-
 function App() {
 
 
