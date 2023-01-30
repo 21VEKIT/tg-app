@@ -1,6 +1,4 @@
-import {useTelegram} from "./hooks/useTelegram";
-import {useEffect, useState} from "react";
-import {Button, TextField} from "@mui/material";
+
 
 function App() {
 
